@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Form</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-form-side">
+            <form>
+                <h1 class="auth-title">Get Started Now</h1>
+
+                <label class="auth-label"><p>Name</p>
+                    <input class="auth-input" name="name" type="text" placeholder="Enter your name" required>
+                </label>
+                <label class="auth-label"><p>Email</p>
+                    <input class="auth-input" name="email" type="email" placeholder="Enter your email" required>
+                </label>
+                <label class="auth-label"><p>Password</p>
+                    <input class="auth-input" name="password" type="password" placeholder="Enter your password" required>
+                </label>
+                <label>
+                    <div class="auth-checkbox">
+                        <input type="checkbox" name="agreement" value="yes" required>I agree to the <a href="#" class="auth-link">terms & policy</a>
+                    </div>
+                </label>
+                <button class="auth-button">Signup</button>
+            </form>
+
+            <div class="divider">Or</div>
+
+            <button class="auth-two-button"><img src="img/icon-google.svg">Sign in with Google</button>
+            <button class="auth-two-button"><img src="img/icon-apple.svg">Sign in with Apple</button>
+            <p class="auth-suggest">Have an account? <a href="#">Sign In</a></p>
+        </div>
+        <div class="auth-image-side">
+            <img src="img/decor-image.svg" class="decor-image">
+        </div>
+    </div>
+</body>
+</html>
